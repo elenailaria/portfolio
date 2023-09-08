@@ -65,10 +65,13 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <img className="link" src={Linkedin} alt="" />
+              <a href="www.linkedin.com/in/elena-c-ba3321290" target="blanck">
+                <img className="link" src={Linkedin} alt="linkedin" />
+              </a>
             </li>
             <li>
               <img className="link" src={Phone} alt="phone" />
+              
             </li>
           </ul>
         </form>
