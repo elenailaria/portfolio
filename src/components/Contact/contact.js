@@ -65,7 +65,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a href="www.linkedin.com/in/elena-c-ba3321290" target="blanck">
+              <a href="https://www.linkedin.com/in/elena-c-ba3321290" target="blanck">
                 <img className="link" src={Linkedin} alt="linkedin" />
               </a>
             </li>
