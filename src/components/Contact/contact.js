@@ -1,9 +1,9 @@
 import "./contact.css";
-import GitHub from "../../assets/github.jpg";
-import Linkedin from "../../assets/linkedin.jpg";
-import Phone from "../../assets/phone.jpg";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   const form = useRef();
@@ -61,17 +61,19 @@ const Contact = () => {
           <ul className="links">
             <li>
               <a href="https://github.com/elenailaria" target="blanck">
-                <img className="link" src={GitHub} alt="github" />
+                <FontAwesomeIcon className="link" icon={faGithub} />
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/elena-c-ba3321290" target="blanck">
-                <img className="link" src={Linkedin} alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/elena-c-ba3321290"
+                target="blanck"
+              >
+                <FontAwesomeIcon className="link" icon={faLinkedin} />
               </a>
             </li>
             <li>
-              <img className="link" src={Phone} alt="phone" />
-              
+              <FontAwesomeIcon className="link" icon={faPhone} color="black" />
             </li>
           </ul>
         </form>

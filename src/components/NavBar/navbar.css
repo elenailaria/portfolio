@@ -25,6 +25,7 @@
   margin: 1rem;
   cursor: pointer;
   color: white;
+  font-size: 1.5rem;
 }
 .desktopMenuListItem:hover {
   color: var(--primar-color);
