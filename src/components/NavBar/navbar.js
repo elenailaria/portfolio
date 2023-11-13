@@ -43,7 +43,7 @@ const Navbar = () => {
           duration={500}
           className="desktopMenuListItem"
         >
-          Portfolio
+          Projects
         </Link>
         <Link
           activeClass="active"
